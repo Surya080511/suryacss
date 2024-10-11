@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hover Effect Example</title>
+    <link rel="stylesheet" href="a2q3.cssl̥ō">
+</head>
+<body>
+    <div id="specialDiv">My Special Div</div>
+    <img src="your-image.jpg" alt="Sample Image" id="hoverImage" class="hover-image">
+
+    <script>
+        const specialDiv = document.getElementById('specialDiv');
+        const hoverImage = document.getElementById('hoverImage');
+
+        hoverImage.addEventListener('mouseover', () => {
+            specialDiv.style.color = 'blue'; // Change text color on hover
+        });
+
+        hoverImage.addEventListener('mouseout', () => {
+            specialDiv.style.color = 'black'; // Reset text color
+        });
+    </script>
+</body>
+</html>

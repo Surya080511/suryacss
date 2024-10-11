@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f8f8; /* Light background for contrast */
+}
+
+.dropdown {
+    position: relative; /* Position relative for dropdown positioning */
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #3498db; /* Button color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Button font size */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.dropbtn:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+.dropdown-content {
+    display: none; /* Initially hide the dropdown */
+    position: absolute; /* Position it absolutely */
+    background-color: #fff; /* Background for dropdown */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Shadow for dropdown */
+    z-index: 1; /* Ensure it appears above other content */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Show dropdown on hover */
+}
+
+.dropdown-item {
+    padding: 10px; /* Padding for dropdown items */
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Different styles for each dropdown item */
+.item1 {
+    font-family: 'Courier New', Courier, monospace; /* Monospace font */
+    color: #e74c3c; /* Red color */
+}
+
+.item2 {
+    font-family: 'Georgia', serif; /* Serif font */
+    color: #27ae60; /* Green color */
+    font-size: 18px; /* Larger font size */
+}
+
+.item3 {
+    font-family: 'Arial Black', Gadget, sans-serif; /* Bold font */
+    color: #f39c12; /* Orange color */
+}
+
+.item4 {
+    font-family: 'Lucida Console', Monaco, monospace; /* Another monospace font */
+    color: #8e44ad; /* Purple color */
+}
+
+/* Change background color on hover for dropdown items */
+.dropdown-item:hover {
+    background-color: #f0f0f0; /* Light gray on hover */
+}

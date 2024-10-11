@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    position: fixed; /* Fix the menu bar */
+    top: 0;
+    left: 0; /* Change to right: 0; to move it to the right */
+    width: 200px; /* Set width of the menu */
+    height: 100%; /* Full height */
+    background-color: #333; /* Dark background */
+    color: white; /* Text color */
+    padding-top: 20px; /* Space at the top */
+}
+
+.menu ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+.menu ul li {
+    padding: 15px; /* Padding for menu items */
+}
+
+.menu ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Make the entire area clickable */
+}
+
+.menu ul li a:hover {
+    background-color: #575757; /* Darker background on hover */
+}
+
+.content {
+    margin-left: 220px; /* Space for the fixed menu */
+    padding: 20px; /* Padding for content */
+}
+
+h1 {
+    margin-top: 0; /* Remove margin at the top */
+}

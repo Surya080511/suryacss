@@ -1,0 +1,14 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.h5-style {
+    font-size: 20px;
+    font-weight: lighter;
+    color: darkred;
+}
+
+.text-style {
+    color: #333;
+    font-size: 16px;
+}

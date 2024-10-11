@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Background Image Change on Hover</title>
+    <link rel="stylesheet" href="a2q4.css">
+</head>
+<body>
+    <div id="backgroundDiv"></div>
+    <img src="your-image.jpg" alt="Sample Image" id="hoverImage" class="hover-image">
+
+    <script>
+        const backgroundDiv = document.getElementById('backgroundDiv');
+        const hoverImage = document.getElementById('hoverImage');
+
+        // Store the original and hover background images
+        const originalBackground = 'url(your-background-image1.jpg)';
+        const hoverBackground = 'url(your-background-image2.jpg)';
+
+        // Set the initial background image
+        backgroundDiv.style.backgroundImage = originalBackground;
+
+        hoverImage.addEventListener('mouseover', () => {
+            backgroundDiv.style.backgroundImage = hoverBackground; // Change to hover image
+        });
+
+        hoverImage.addEventListener('mouseout', () => {
+            backgroundDiv.style.backgroundImage = originalBackground; // Reset to original image
+        });
+    </script>
+</body>
+</html>

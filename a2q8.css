@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 200vh; /* Increase page height for scroll effect */
+    background: linear-gradient(to bottom, #f0f0f0, #ffffff);
+}
+
+.navbar {
+    position: sticky; /* Sticky position for the navbar */
+    top: 0;
+    background-color: #333; /* Dark background */
+    padding: 10px 0; /* Padding for the navbar */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    text-align: center; /* Center the navigation */
+}
+
+.navbar ul li {
+    display: inline; /* Display items horizontally */
+    margin: 0 15px; /* Space between items */
+}
+
+.navbar ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Padding for links */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.navbar ul li a:hover {
+    background-color: #575757; /* Darker background on hover */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.repeated-image {
+    width: 100%;
+    max-width: 800px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border: 5px solid #3498db; /* Blue border */
+    outline: 10px solid #e74c3c; /* Red outline */
+    outline-offset: -5px; /* Move outline inward */
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333; /* Dark text color */
+}
+
+p {
+    color: #666; /* Gray text color */
+    line-height: 1.6; /* Increase line height for readability */
+}
